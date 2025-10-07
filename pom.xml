@@ -269,5 +269,40 @@
 			<artifactId>jedis</artifactId>
 			<version>2.6.2</version>
 		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>5.12.0</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- Apache Commons IO -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.16.1</version>
+		</dependency>
+
+			<!-- Lombok (for concise data classes, builders) -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.32</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- Logback JSON encoder (structured logging) -->
+		<dependency>
+			<groupId>net.logstash.logback</groupId>
+			<artifactId>logstash-logback-encoder</artifactId>
+			<version>7.4</version>
+		</dependency>
+
+		<!-- Micrometer (metrics monitoring) -->
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-core</artifactId>
+			<version>1.12.0</version>
+		</dependency>
+
 	</dependencies>
 </project>
