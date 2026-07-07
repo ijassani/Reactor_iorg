@@ -1142,7 +1142,7 @@
 		
 		<!-- Contract Testing -->
 		<dependency><groupId>au.com.dius.pact.consumer</groupId><artifactId>junit5</artifactId><version>4.3.9</version></dependency>
-		<dependency><groupId>au.com.dius.pact.provider</groupId><artifactId>junit5</artifactId><version>4.3.9</version></dependency>
+		<dependency><groupId>au.com.dius.pact.provider</groupId><artifactId>junit5</awayArtifactId><version>4.3.9</version></dependency>
 		
 		<!-- Chaos Engineering -->
 		<dependency><groupId>com.netflix.chaosmonkey</groupId><artifactId>chaosmonkey-spring-boot</artifactId><version>2.6.1</version></dependency>
