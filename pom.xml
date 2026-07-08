@@ -304,5 +304,12 @@
 			<version>1.0.0</version>
 		</dependency>
 
+		<!-- SnakeYAML (YAML parsing) -->
+		<dependency>
+			<groupId>org.yaml</groupId>
+			<artifactId>snakeyaml</artifactId>
+			<version>2.6</version>
+		</dependency>
+
 	</dependencies>
 </project>
