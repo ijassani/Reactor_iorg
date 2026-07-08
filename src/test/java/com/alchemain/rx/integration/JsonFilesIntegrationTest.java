@@ -1,8 +1,8 @@
 package com.alchemain.rx.integration;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -18,6 +18,6 @@ public class JsonFilesIntegrationTest {
 		assertNotNull(person);
 		assertEquals("Irene", person.get("givenName").asText());
 		assertEquals("Rodriguez", person.get("familyName").asText());
-		assertFalse(person.get("phoneNumbers").size() == 0);
+		assertTrue(person.get("phoneNumbers").size() > 0);
 	}
 }
