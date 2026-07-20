@@ -27,6 +27,7 @@
 		<logback-version>1.5.32</logback-version>
 		<slf4j-version>2.0.17</slf4j-version>
 		<mongo-driver-version>2.11.3</mongo-driver-version>
+		<skipTests>true</skipTests>
 	</properties>
 
 	<reporting>
@@ -79,7 +80,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.16</version>
 				<configuration>
-					<skipTests>true</skipTests>
+					<skipTests>${skipTests}</skipTests>
 				</configuration>
 			</plugin>
 			<plugin>

@@ -17,8 +17,8 @@ com/alchemain/rx/utils/ConnectorResourceLocator.class
 com/alchemain/rx/examples/LibraryUsageExamples$Person.class
 com/alchemain/rx/internal/delegates/GenericCallback.class
 com/alchemain/rx/utils/HeroResourceLocator.class
-com/alchemain/rx/utils/ScuidResourceUtils.class
 com/alchemain/rx/utils/Notifications$Channel.class
+com/alchemain/rx/utils/ScuidResourceUtils.class
 com/alchemain/rx/internal/delegates/Joiner.class
 com/alchemain/rx/init/ReactorModule.class
 com/alchemain/rx/internal/ErrorState.class
@@ -39,8 +39,8 @@ com/alchemain/rx/bus/JsonFiles.class
 com/alchemain/rx/utils/Constants$ErrorCode.class
 com/alchemain/rx/init/ServletModule.class
 com/alchemain/rx/rest/JobsService.class
-com/alchemain/rx/messages/Work.class
 com/alchemain/rx/scheduler/Schedule.class
+com/alchemain/rx/messages/Work.class
 com/alchemain/rx/utils/RestClientFactory$RestResponse.class
 com/alchemain/rx/internal/Bookie.class
 com/alchemain/rx/bus/ListenerCache.class
@@ -63,8 +63,8 @@ com/alchemain/rx/examples/RestClientExamples.class
 com/alchemain/rx/internal/delegates/Archiver.class
 com/alchemain/rx/bus/EventBusStore.class
 com/alchemain/rx/bus/JsonProvider$1.class
-com/alchemain/rx/internal/SupervisorCreator.class
 com/alchemain/rx/internal/delegates/EventRouter.class
+com/alchemain/rx/internal/SupervisorCreator.class
 com/alchemain/rx/delegates/Delegate.class
 com/alchemain/rx/examples/LibraryUsageExamples$GreeterActor.class
 com/alchemain/rx/utils/Constants.class
