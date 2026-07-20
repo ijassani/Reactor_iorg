@@ -18,6 +18,6 @@ public class JsonFilesIntegrationTest {
 		assertNotNull(person);
 		assertEquals("Irene", person.get("givenName").asText());
 		assertEquals("Rodriguez", person.get("familyName").asText());
-		assertTrue(person.get("phoneNumbers") > 0);
+		assertTrue(person.get("phoneNumbers").size() > 0);
 	}
 }
