@@ -304,5 +304,12 @@
 			<version>1.0.0</version>
 		</dependency>
 
+		<!-- lz4-java: community fork fixing CVE-2025-12183 and CVE-2025-66566 -->
+		<dependency>
+			<groupId>at.yawk.lz4</groupId>
+			<artifactId>lz4-java</artifactId>
+			<version>1.10.3</version>
+		</dependency>
+
 	</dependencies>
 </project>
