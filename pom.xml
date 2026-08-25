@@ -30,6 +30,16 @@
 		<mongo-driver-version>2.11.3</mongo-driver-version>
 	</properties>
 
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.apache.lucene</groupId>
+				<artifactId>lucene-join</artifactId>
+				<version>8.11.4</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
 	<reporting>
 		<plugins>
 			<plugin>
